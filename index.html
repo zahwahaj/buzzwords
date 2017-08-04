@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--<script src="script.js"></script>-->
+
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono|Source+Sans+Pro" rel="stylesheet">
+    <!--<script src="script.js"></script>-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.5/addons/p5.dom.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="p5.speech.js"></script>
+    
+    <script onClick="randomWord(); checkLetterSpeech()" src="words.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body id="body">
+    <div class="jumbotron" id="mainEverything">
+        <h1 id="title">BUZZ WORDS</h1>
+        <h2 id=description>SPELL WHAT YOU HEAR</h2>
+    </div>
+    <button onClick="repeat()" id="repeatWord" class="button">Repeat the Word</button>
+    <input type="text" id="input" onkeyup="submitLetter()">
+    <h1 id="word"></h1>
+    <div id="score">
+        <h1 id="actualscore">0</h1>
+        <h2 id="scoretitle">SCORE</h2>
+    </div>
+</body>
+
+</html>

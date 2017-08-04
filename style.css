@@ -1,0 +1,84 @@
+.jumbotron {
+    background-repeat: no-repeat !important;
+    background-size: 50% !important;
+    height: 800pt;
+    background-position: left !important;
+    background: #6DB3F2 url("https://clipartion.com/wp-content/uploads/2015/11/spelling-bee-clip-art-830x508.png");
+    border-style: solid;
+    border-width: 50px;
+    border-color: black;
+}
+
+
+#description {
+    position: absolute;
+    left: 59%;
+    top: 23%;
+    color: lightBlue;
+    font-size: 100px;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+#title {
+    position: absolute;
+    left: 57%;
+    top: 13%;
+    color: gold;
+    font-size: 200px;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+#input {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+    height: 100px;
+}
+
+.button {
+    width: 10%;
+    border-style: none;
+    font-family: 'Abril Fatface', cursive;
+    background-color: lightBlue;
+    font-size: 50px;
+    padding: 20px;
+}
+
+#repeatWord {
+    margin-right: 80px;
+    margin-left: 45%;
+ 
+}
+
+#body {
+    background-color: lightyellow;
+}
+
+#score{
+    position:absolute;
+    left:90%;
+    top:43.1%;
+    background-color: lightBlue;
+    min-height:15%;
+    width:12%;
+}
+
+#scoretitle{
+    font-family: 'Abril Fatface', cursive;
+    font-size:50px;
+    text-align:center !important;
+    position:absolute;
+    top:70%;
+    left:30%;
+}
+
+#actualscore{
+    font-family: 'Abril Fatface', cursive;
+    font-size:200px;
+    position:absolute;
+    top:5%;
+    left:22%;
+}
